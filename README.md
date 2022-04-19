@@ -12,25 +12,33 @@ Llista de visualització ràpida dels elements bàsics de Markdown.
 # H1
 `# H1`
 ## H2
+`## H2`
 ### H3
+`### H3`
 
-### Bold
+### Negreta
 
 **bold text**
+`**bold text**`
 
-### Italic
+### Cursiva
 
 *italicized text*
+`*italicized text*`
 
-### Blockquote
+### Bloc de cita
 
 > blockquote
+`> blockquote`
 
-### Ordered List
+### Llista ordenada
 
 1. First item
 2. Second item
 3. Third item
+`1. First item
+2. Second item
+3. Third item`
 
 ### Unordered List
 
