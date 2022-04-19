@@ -67,30 +67,43 @@ Llista de visualització ràpida dels elements bàsics de Markdown.
 ```
 
 
-### Horizontal Rule
+### Línia horitzontal
 
 ---
 
-### Link
+`---`
 
-[Markdown Guide](https://www.markdownguide.org)
+### Enllaç
 
-### Image
+[IES Salvador Gadea](https://iesgadea.es)
 
-![alt text](https://www.markdownguide.org/assets/images/tux.png)
+`[IES Salvador Gadea](https://iesgadea.es)`
 
-## Extended Syntax
+### Imatge
 
-These elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.
+![TUX](https://www.markdownguide.org/assets/images/tux.png)
 
-### Table
+`![TUX](https://www.markdownguide.org/assets/images/tux.png)`
+
+## Sintaxi estesa
+
+No totes les aplicacions Markdown permeten totes les següents etiquetes.
+
+### Taula
 
 | Syntax | Description |
 | ----------- | ----------- |
 | Header | Title |
 | Paragraph | Text |
 
-### Fenced Code Block
+```
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+```
+
+### Bloc de codi de més d'una línia
 
 ```
 {
@@ -100,45 +113,46 @@ These elements extend the basic syntax by adding additional features. Not all Ma
 }
 ```
 
-### Footnote
+```
+```
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
+```
 
-Here's a sentence with a footnote. [^1]
+### Nota al peu
 
-[^1]: This is the footnote.
+Esta es una frase amb un nota al peu. [^1]
 
-### Heading ID
+[^1]: Esta és la nota al peu.
 
-### My Great Heading {#custom-id}
+```
+Esta es una frase amb un nota al peu. [^1]
 
-### Definition List
+[^1]: Esta és la nota al peu.
+```
 
-term
-: definition
+### Llista de tasques
 
-### Strikethrough
+- [x] Estudiar Python
+- [ ] Estudiar GIT
+- [ ] Coneixer Markdown
 
-~~The world is flat.~~
-
-### Task List
-
-- [x] Write the press release
-- [ ] Update the website
-- [ ] Contact the media
+```
+- [x] Estudiar Python
+- [ ] Estudiar GIT
+- [ ] Coneixer Markdown
+```
 
 ### Emoji
 
-That is so funny! :joy:
+Content! :joy:
 
-(See also [Copying and Pasting Emoji](https://www.markdownguide.org/extended-syntax/#copying-and-pasting-emoji))
+```
+Content! :joy:
+```
 
-### Highlight
 
-I need to highlight these ==very important words==.
-
-### Subscript
-
-H~2~O
-
-### Superscript
-
-X^2^
