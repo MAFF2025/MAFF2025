@@ -5,11 +5,12 @@ Entorns de Desenrotllament
 
 ## Sintaxi de Markdown
 
-These are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.
+Llista de visualització ràpida dels elements bàsics de Markdown.
 
-### Heading
+### Capçaleres
 
 # H1
+`# H1`
 ## H2
 ### H3
 
