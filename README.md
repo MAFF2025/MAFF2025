@@ -18,37 +18,54 @@ Llista de visualització ràpida dels elements bàsics de Markdown.
 
 ### Negreta
 
-**bold text**
-`**bold text**`
+**text en negreta**
+
+`**text en negreta**`
 
 ### Cursiva
 
-*italicized text*
-`*italicized text*`
+*text cursiva*
+
+`*text cursiva*`
 
 ### Bloc de cita
 
 > blockquote
-`> blockquote`
+
+`> bloc de cita`
 
 ### Llista ordenada
 
-1. First item
-2. Second item
-3. Third item
-`1. First item
-2. Second item
-3. Third item`
+1. Primer element
+2. Segon element
+3. Tercer element
 
-### Unordered List
+```
+1. Primer element
+2. Segon element
+3. Tercer element
+```
 
-- First item
-- Second item
-- Third item
+### Llista desordenada
 
-### Code
+- Primer element
+- Segon element
+- Tercer element
 
-`code`
+```
+- Primer element
+- Segon element
+- Tercer element
+```
+
+### Codi
+
+`codi`
+
+```
+`codi`
+```
+
 
 ### Horizontal Rule
 
